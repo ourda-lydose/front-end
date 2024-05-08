@@ -19,7 +19,7 @@ const ItemsPage = ({ items }) => {
                     <tr key={item.id}>
                         <td>{item.id}</td>
                         <td>{item.name}</td>
-                        <td>{item.price}</td>
+                        <td>{item.description}</td>
                     </tr>
                 ))}
                 </tbody>
